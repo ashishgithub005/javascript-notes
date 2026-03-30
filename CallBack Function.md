@@ -6,6 +6,7 @@ A callback function is a function that is passed as an argument to another funct
 A callback is a function that runs after another function finishes.
 
 Example
+<code>
 function greet(name, callback) {
     console.log("Hello " + name);
     callback(); // calling callback function
@@ -16,6 +17,7 @@ function sayBye() {
 }
 
 greet("Ashish", sayBye);
+</code>
 
 Output:
 
